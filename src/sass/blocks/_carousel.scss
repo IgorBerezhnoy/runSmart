@@ -26,4 +26,31 @@
 	right: -66px;
   }
   
+  .slick-dots {
+	display: flex;
+	justify-content: center;
+	
+	li {
+	  list-style-type: none;
+	  
+	  button {
+		margin-right: 7px;
+		border: none;
+		background: rgba(13, 38, 55, 0.3);
+		border-radius: 100%;
+		font-size: 0;
+		width: 15px;
+		height: 15px;
+	  }
+	}
+	
+	.slick-active {
+	  
+	  button {
+		background: #0d2637;
+		
+	  }
+	}
+	
+  }
 }
