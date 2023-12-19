@@ -17,6 +17,16 @@
   background: #f2f2f2;
   padding: 40px;
   
+  .error {
+	border: 1px solid red;
+  }
+  
+  label.error {
+	text-align: center;
+	border: none;
+	margin:7px 0 7px 0;
+  }
+  
   &__close {
 	position: absolute;
 	top: 0;
@@ -46,6 +56,7 @@
 	min-height: 140px;
   }
 }
+
 
 #consultation, #order, #thanks {
   display: none;
