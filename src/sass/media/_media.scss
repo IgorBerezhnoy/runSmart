@@ -122,17 +122,18 @@
 	  height: 44px;
 	}
   }
+  .feed-form {
+	margin: 0 auto;
+	
+	input {
+	  margin-top: 7px;
+	  height: 38px;
+	}
+  }
   .consultation {
 	padding-top: 48px;
 	text-align: center;
 	
-	.feed-form {
-	  margin: 0 auto;
-	  
-	  input {
-		height: 38px;
-	  }
-	}
   }
   .title {
 	&_left {
@@ -188,13 +189,22 @@
 		
 		img {
 		  height: 20px;
-		  
 		}
 	  }
 	}
+  }
+  .modal {
+	width: 340px;
+	padding: 20px;
+	min-height: 300px;
 	
+	&__close {
+	  right: -26px;
+	  top: -15px;
+	}
 	
   }
+  
 }
 
 @media (max-width: 425px) {
@@ -232,6 +242,15 @@
 	
 	&__name {
 	  margin-top: 10px;
+	}
+  }
+  .modal {
+	&__close {
+	  background: #FFFFFF;
+	  padding: 15px;
+	  border-radius: 100%;
+	  right: 154px;
+	  top: 345px;
 	}
   }
   

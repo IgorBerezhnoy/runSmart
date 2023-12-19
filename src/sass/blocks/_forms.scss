@@ -5,6 +5,7 @@
   width: 300px;
   
   input {
+	width: 100%;
 	height: 50px;
 	border-radius: 5px;
 	background: #FFFFFF;
@@ -18,5 +19,9 @@
 	&:nth-child(3) {
 	  margin-bottom: 20px;
 	}
+  }
+  
+  &_mt10 {
+	margin-top: 10px;
   }
 }
