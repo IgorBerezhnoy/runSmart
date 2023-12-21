@@ -1,0 +1,267 @@
+@media (max-width: 991px) {
+  .container {
+	max-width: 98%;
+  }
+  .catalog__content_active {
+	justify-content: center;
+  }
+}
+
+@media (max-width: 767px) {
+  
+  .header {
+	&__official {
+	  font-size: 10px;
+	  
+	  span {
+		font-size: 12px;
+	  }
+	}
+	
+	&__phone {
+	  font-size: 16px;
+	}
+	
+  }
+  .advantages {
+	&__item {
+	  margin-top: 30px;
+	}
+	
+	&__subtitle {
+	  margin-top: 20px;
+	  font-size: 16px;
+	}
+	
+	&__descr {
+	  margin-top: 15px;
+	  font-size: 14px;
+	}
+  }
+  .title {
+	&_left {
+	  font-size: 30px;
+	  line-height: 34px;
+	}
+  }
+  .consultation {
+	&__descr {
+	  font-size: 18px;
+	  line-height: 24px;
+	}
+  }
+  .carousel {
+	&__inner {
+	  width: 100%;
+	  
+	  img {
+		width: 100%;
+	  }
+	}
+  }
+  .catalog {
+	&__tabs {
+	  margin-top: 20px;
+	}
+	
+	&__tab {
+	  width: 186px;
+	  height: 40px;
+	  font-size: 16px;
+	  line-height: 40px;
+	}
+	
+	&__content_active {
+	  margin-top: 34px;
+	}
+  }
+}
+
+@media (max-width: 575px) {
+  
+  .advantages {
+	&__items {
+	  margin-top: 10px;
+	  flex-direction: column;
+	  align-items: center;
+	}
+	
+  }
+  .header {
+	&__official {
+	  display: none;
+	}
+  }
+  .promo {
+	&__header {
+	  font-size: 36px;
+	  text-align: end;
+	}
+	
+	&__subheader {
+	  font-size: 18px;
+	}
+	
+	&__icons {
+	  margin-top: 40px;
+	}
+	
+	&__link {
+	  font-size: 14px;
+	  
+	}
+  }
+  .button {
+	&_main {
+	  width: 280px;
+	  height: 44px;
+	  font-size: 15px
+	}
+	
+	&_submit {
+	  height: 44px;
+	}
+  }
+  .feed-form {
+	margin: 0 auto;
+	
+	input {
+	  margin-top: 7px;
+	  height: 38px;
+	}
+  }
+  .consultation {
+	padding-top: 48px;
+	text-align: center;
+	
+  }
+  .title {
+	&_left {
+	  text-align: center;
+	  font-size: 26px;
+	}
+	
+	&_regular {
+	  font-size: 26px;
+	}
+  }
+  .catalog {
+	&__tab {
+	  font-size: 14px;
+	  line-height: 40px;
+	}
+	
+	&-item {
+	  margin-right: 0;
+	}
+  }
+  .customer {
+	&__photo {
+	  width: 120px;
+	  height: 120px;
+	}
+	
+	&__info {
+	  margin-left: 20px;
+	}
+  }
+  .footer {
+	&__info {
+	  width: 300px;
+	  height: 180px;
+	  padding: 20px;
+	}
+	
+	&__adr {
+	  margin-bottom: 20px;
+	  font-size: 16px;
+	}
+	
+	&__tel {
+	  font-size: 16px;
+	  margin-bottom: 26px;
+	}
+	
+	&__social {
+	  &-item {
+		width: 40px;
+		height: 40px;
+		
+		img {
+		  height: 20px;
+		}
+	  }
+	}
+  }
+  .modal {
+	width: 340px;
+	padding: 20px;
+	min-height: 300px;
+	
+	&__close {
+	  right: -26px;
+	  top: -15px;
+	}
+	
+  }
+  
+}
+
+@media (max-width: 425px) {
+  .promo {
+	&__subheader {
+	  font-size: 16px;
+	  text-align: end;
+	}
+  }
+  .promo {
+	&__icons {
+	  width: 320px;
+	}
+  }
+  .catalog {
+	&__tab {
+	  font-size: 12px;
+	  line-height: 37px;
+	}
+  }
+  .customer {
+	margin-top: 30px;
+	flex-direction: column;
+	align-items: center;
+	
+	&__photo {
+	  width: 130px;
+	  height: 130px;
+	}
+	
+	&__info {
+	  margin-left: 0;
+	  text-align: center;
+	}
+	
+	&__name {
+	  margin-top: 10px;
+	}
+  }
+  .modal {
+	&__close {
+	  color: #000;
+	  background: #FFFFFF;
+	  padding: 15px;
+	  border-radius: 100%;
+	  right: 154px;
+	  top: 345px;
+	}
+  }
+  
+}
+
+@media (max-width: 320px) {
+  .catalog {
+	&__tab {
+	  font-size: 11px;
+	}
+  }
+  
+}
